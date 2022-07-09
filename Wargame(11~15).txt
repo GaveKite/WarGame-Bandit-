@@ -1,0 +1,7 @@
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR (base64 인코딩을 base64 --decode 를 통해 풀어줌으로써 암호해독)
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu (카이사르 암호 해독 tr '[A-Za-z]' '[N-ZA-Mn-za-m]')
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL ( 18 진짜 개노가다 문제 덤프파일을 바이너리로(xxd 명령어), gzip -d 로 gzip 파일 풀기(확장자 gz여야함)
+						   + bzip2 -d로 bzip2 압축 풀기)
+
+ssh -i sshkey.private bandit14@localhost (private SSH key를 얻어야함. 홈 디렉토리에서 앞 명령어를 치면 패스워드 없이 로그인 가능 = 개어려움)
+BfMYroe26WYalil77FoDi9qh59eK5xNr (nc -l 30000 : 30000번 포트 오픈 & 터미널 새로 열어서 nc -localhost 30000 : 30000번 포트 진입)
